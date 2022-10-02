@@ -7,6 +7,7 @@
 }
 
 body {
+  background-color:gainsboro;
   font-family: "Montserrat", sans-serif;
   margin: 0px auto;
   max-width: 85%;
@@ -146,16 +147,23 @@ hr {
 
 .ow {
   background-color: var(--off-white);
+  border: 3px outset #be185d
 }
+.pow{
+  border: 3px dashed #be185d;
+}
+
 
 /** footers **/
 
 .footer {
   background-color: var(--primary-color);
-  padding: 2rem 1rem;
+  padding: 2rem 8rem ;
   text-align: center;
   color:black;
   border-top-right-radius: 1rem;
+  border: 2px solid black;
+}
 }
 
 .footer .link {
