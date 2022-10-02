@@ -164,7 +164,8 @@ hr {
   text-align: center;
   color:black;
   border-top-right-radius: 1rem;
-  border: 2px solid black;
+  border-top-left-radius:1rem ;
+  
 }
 
 
