@@ -3,7 +3,6 @@
 :root {
   --primary-color:#be185d;
   --off-white: #bec3c5;
-  --dark-gray: #ed38d2;
 }
 
 html{
@@ -43,7 +42,7 @@ hr {
   margin: 2rem 0rem;
 }
 
-/** spaces **/
+
 
 .margin-md {
   margin: 2rem;
@@ -86,8 +85,6 @@ hr {
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
 }
-
-/** look into BEM naming convention for CSS **/
 
 /** lists **/
 
@@ -208,22 +205,6 @@ hr {
 
 .footer ul {
   padding-inline-start: 0rem;
-}
-
-/** projects **/
-.showcase-list {
-  /* padding: 2rem; */
-  padding: 2rem;
-  border-radius: 1rem;
-  text-align: center;
-  margin: 3rem auto;
-}
-.showcase-list h1 {
-  margin: 0.5rem;
-}
-
-.showcase-list p {
-  padding-bottom: 1rem;
 }
 .button{
   background-color:white;
